@@ -1,0 +1,6 @@
+[submodule "google-snappy"]
+	path = google-snappy
+	url = https://github.com/google/snappy
+[submodule "andrix-python-snappy"]
+	path = andrix-python-snappy
+	url = https://github.com/andrix/python-snappy
