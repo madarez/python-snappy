@@ -7,7 +7,7 @@ Building without the dependencies
 Run the following in your `lambci/lambda:build-python3.7` container:
 ::
   git clone https://github.com/madarez/python-snappy
-  docker run --entrypoint='/bin/sh' --mount type=bind,source=$(pwd)/python-snappy/,target=/var/task --rm -it lambci/lambda:build-python3.7
+  docker run --entrypoint='/bin/sh' --mount type=bind,source="$(pwd)/python-snappy/",target=/var/task --rm -it lambci/lambda:build-python3.7
 
 Then inside the docker container run install the following:
 
