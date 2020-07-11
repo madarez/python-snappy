@@ -13,7 +13,7 @@ Then inside the docker container run install the following:
 
 google-snappy:
 ::
-  sed '/set_target_properties(snappy/a\
+  sed -i '/set_target_properties(snappy/a\
   POSITION_INDEPENDENT_CODE ON' google-snappy/CMakeLists.txt'
   mkdir build 
   cd build/
